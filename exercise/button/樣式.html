@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href="buttonGroup.css"/>
 <title>三小隻的橙海</title>
 <style>
 body {
-    background-color: orange;
+    background-color: darkorange;
 }
 
 h1 {
@@ -13,6 +14,7 @@ h1 {
 }
 
 p {
+    color:blueviolet;
     font-family: verdana;
     font-size: 20px;
     text-align: center;
@@ -20,7 +22,9 @@ p {
 h3 {
     font-size:30px;
 }
-
+h2 {
+color:blueviolet;
+}
 
 </style>
 </head>
@@ -37,7 +41,7 @@ h3 {
 <center>
 <h2>歷年專輯</h2>
 
-<table border="1">
+<table style="border:3px #FFD382 dashed;"cellpadding="10" border='1'>
   <tr>
     <th>Heart 夢·出發</th>
     <th>魔法城堡</th> 
@@ -78,29 +82,11 @@ h3 {
 </body>
 
 <body>
-    <form>
-    你的名字: 
-    <input type="text" name="firstname"><br>
-    你的年齡:
-    <input type="text" name="age"><br>
-    你的信箱:
-    <input type="text" name="email"><br>
-    出生年份:
-    <input type="date" name="mybirthday"><br>
-    你的性別:
-    <input type="radio" name="gender" value="male" checked> 男
-    <input type="radio" name="gender" value="female"> 女
-    <input type="radio" name="gender" value="other"> 其他<br>
-    
-    你的血型:
-    <select name="myblood">
-        <option value="A">A型</option>
-        <option value="B">B型</option>
-        <option value="O">O型</option>
-        <option value="AB">AB型</option>
-      </select>
-    
-    </form>
+        <button id="b1">TFBOYS</button>
+        <button id="b2">Karry</button>
+        <button id="b3">Roy</button>
+        <button id="b4">Jackson</button>
+    </body>
 
 
 
