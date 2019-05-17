@@ -7,4 +7,4 @@
 教師 | 陳鍾誠
 學校 | 金門大學
 科系 | 資訊工程系
-專案 |[th](https://www.youtube.com/user/ccckmit/videos)
+專案 |[tfboys](https://www.youtube.com/watch?v=sW1dKgOK1kQ)
