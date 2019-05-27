@@ -1,0 +1,103 @@
+body
+{
+    background-image:url('http://i.serengeseba.com/uploads/i_0_1571771932x546457856_26.jpg') ;
+    margin:0px;
+}
+h3
+{
+    padding: 20px;
+    top: 10px;
+    margin: 20px;
+    text-align: center;
+}
+ h1 
+{
+    color: white;
+    text-align: center;
+}
+.menu
+{
+    position:absolute;
+    
+    width:100px;
+    height:10000px;
+    overflow: hidden;
+	background:rgb(221, 147, 11);
+	z-index: -2;
+    font-size:15px;
+}
+
+.header
+ {
+    
+    background-color:  rgb(243, 176, 52);
+    padding: 10px;
+    text-align: center;
+}
+.dropbtn {
+    background-color: rgb(243, 176, 52);
+    color: white;
+    margin: 10PX;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: sandybrown;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 30px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: wheat}
+
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: navajowhite;
+}
+.P1{
+    position:relative;
+    top:10px;
+    left:200px;
+    z-index:-1;
+    float: left;
+    
+    margin-left : 200px;
+    text-indent : em ;
+}
+.p{
+    font-size: 20px;
+    font-family: fantasy;
+    position: relative;
+}
+.p2{
+    position:absolute;
+    top:400px;
+    left:200px;
+    z-index:-1;
+    float: left;
+    
+    margin-left : 200px;
+    text-indent : em ;
+}
+
