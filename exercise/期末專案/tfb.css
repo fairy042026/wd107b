@@ -17,23 +17,59 @@ h3
 }
 .menu
 {
-    position:absolute;
+    /*position:absolute;
     
     width:100px;
     height:10000px;
     overflow: hidden;
 	background:rgb(221, 147, 11);
 	z-index: -2;
-    font-size:15px;
+    font-size:15px;*/
+
+
+    position: absolute;/* 固定nav位置 */
+    margin: 0;
+    padding:0px 10px;
+    color: rgb(194, 227, 255);/*字體色*/
+    background-color:rgb(221, 147, 11);
+    height:1200px;/*元素高度*/
+    width: 50px;
+    text-align:left;/*字體靠左*/
+    font-size: 20px;
+    line-height: 40px;
+    overflow: hidden;
+    transition:width 2s;
+    -webkit-transition:width 2s;
+}
+.menu:hover
+{
+    width:150px;
+    font-size:20px;
 }
 
 .header
  {
-    
     background-color:  rgb(243, 176, 52);
     padding: 10px;
-    text-align: center;
+    text-align: left;
+    float: top;
 }
+button
+        {
+		font-family:monospace;
+		font-size:35px;
+		margin:0px;
+		background-color:rgb(243, 176, 52);
+		padding:10px;
+		top:10px;
+		left:5px;
+        border: none;
+        color: white;
+		}
+		button:hover
+		{
+			background-color: sandybrown;	
+		}
 .dropbtn {
     background-color: rgb(243, 176, 52);
     color: white;
