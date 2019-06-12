@@ -1,6 +1,7 @@
 # hello, This is Markdown Live Preview
 
-----
+---
+
 ## what is Markdown?
 see [Wikipedia](https://en.wikipedia.org/wiki/Markdown)
 
@@ -10,6 +11,15 @@ see [Wikipedia](https://en.wikipedia.org/wiki/Markdown)
 ## usage
 1. Write markdown text in this textarea.
 2. Click 'HTML Preview' button.
+
+----
+### hello my friend
+* karry
+* roy
+* jackson
+---
+>你們不離我們不棄
+
 連結：[ex1](ex1)
 ```html
 <!DOCTYPE html>

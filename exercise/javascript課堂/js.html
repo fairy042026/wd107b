@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="utf-8"> 
+<title>菜鸟教程(runoob.com)</title> 
+</head>
+
+<style>
+    body
+    {
+        background-color: darksalmon
+    }
+    
+</style>
+<body>
+
+<div >
+<h1>我的第一段 JavaScript</h1>
+<p id="demo">
+JavaScript 能改变 HTML 元素的内容。
+</p>
+<script>
+    //document.write("hello");
+
+function myFunction()
+{
+	x=document.getElementById("demo");  // 找到元素
+	x.innerHTML="Hello JavaScript!";    // 改变内容
+}
+</script>
+<button type="button" onclick="myFunction()">点击这里</button>
+	
+</body>
+</div>
+<p></p>
+<body>
+        <script>
+          function calculate() {
+            var a = document.getElementById('a')
+            var op = document.getElementById('op')
+            var b = document.getElementById('b')
+            var result = document.getElementById('result')
+            result.innerText = eval(a.value + op.value + b.value)
+          }
+        </script>    
+            <input id="a" type="text" value="3"/>
+            <select id="op">
+              <option value="+">+</option>
+              <option value="-">-</option>
+              <option value="*" selected>*</option>
+              <option value="/">/</option>
+            </select>
+        <!--    <input id="op" type="text" value="*"/>-->
+            <input id="b" type="text" value="5"/>
+             = <label id="result"></label><br/><br/>
+            <button onclick="calculate()">計算</button>
+          </body>
+
+          <body>
+                <center><h2>我的網頁</h2></center>
+                
+                
+                    <marquee direction="right" scrollamount="10" height= "50">Hello</marquee>
+            </body>
+            
+</html>

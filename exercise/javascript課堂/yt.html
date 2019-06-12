@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"><meta>
+    <title>javascript</title>
+    <script type="text/javascript">
+        /*alert("大家好");
+        //prompt("請輸入數字");
+        var n1 = prompt("請輸入數字");
+        var n2 = prompt("請輸入數字");
+        n1 = Number(n1);
+        n2 = Number(n2);
+        var op = prompt("運算");
+        var result ;
+        if (op == '+')
+        {
+            result = n1+n2;
+        }
+        else if (op == '-')
+        {
+            result = n1-n2;
+        }
+        else if (op == '*')
+        {
+            result = n1*n2;
+        }
+        else if (op == '/')
+        {
+            result = n1/n2;
+        }
+        else
+        {
+            請輸入正確的運算符號;
+        }
+        alert(result);
+
+        var n=0;
+        while(n<=50) n++;
+        alert(n);*/
+
+        //設計的函式
+        function test(message /*參數名稱*/)
+        {
+            //函式本體
+            alert(message);
+        }
+        //呼叫函式
+        test("hi"/*傳入函式的參數資料*/);
+        test("hello");
+       function get(h)
+       {
+           var sum = 0;
+           var i = 1;
+           while(i<=h)
+           {
+               sum = sum + i;
+               i++;
+           }
+           alert(sum);
+           return sum;
+       }
+       get(50);//50帶入h 算出1+s到50
+       get(100);
+       var result = get(50)*get(100);
+       alert(result);
+        
+
+    </script>
+        
+</head>
+</html>

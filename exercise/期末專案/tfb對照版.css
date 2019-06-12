@@ -3,12 +3,15 @@ body
     background-image:url('http://i.serengeseba.com/uploads/i_0_1571771932x546457856_26.jpg') ;
     margin:0px;
 }
-.h3
+h3
 {
     padding: 20px;
     top: 10px;
     margin: 20px;
     text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
     
 }
  h1 
@@ -16,7 +19,6 @@ body
     color: white;
     text-align: center;
 }
-
 .menu
 {
     /*position:absolute;
@@ -42,7 +44,6 @@ body
     overflow: hidden;
     transition:width 2s;
     -webkit-transition:width 2s;
-    
 }
 .menu:hover
 {
@@ -57,18 +58,7 @@ body
     text-align: left;
     float: top;
 }
-.header a
-{
-    
-        float: left;
-        font-size: 16px;
-        color: white;
-        padding: 10px;
-        border: none;
-        text-decoration: none;
-      
-}
-/*button
+button
         {
 		font-family:monospace;
 		font-size:35px;
@@ -80,10 +70,10 @@ body
         border: none;
         color: white;
 		}
-button:hover
+		button:hover
 		{
 			background-color: sandybrown;	
-		}*/
+		}
 .dropbtn {
     background-color: rgb(243, 176, 52);
     color: white;
@@ -142,7 +132,7 @@ button:hover
 }
 .p2{
     position:absolute;
-    top:400px;
+    top:1000px;
     left:200px;
     z-index:-1;
     float: left;
@@ -150,13 +140,3 @@ button:hover
     margin-left : 200px;
     text-indent : em ;
 }
-
-
-
-
-    
-  
-
-
-
-
