@@ -8,7 +8,7 @@
 功能
 
 1.下拉式選單
-
+[介紹:](https://github.com/fairy042026/wd107b/blob/master/1.md)
 2.側欄
 
 3.嵌入圖片，並產生超連結
