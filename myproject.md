@@ -23,4 +23,4 @@
 [介紹](https://github.com/fairy042026/wd107b/blob/master/5.md)
 
 6.BMI計算：
-[介紹]
+[介紹](https://github.com/fairy042026/wd107b/blob/master/6.md)
