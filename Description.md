@@ -120,7 +120,7 @@
               ```
 
 6.BMI計算
-```
+
 bmi計算<br>
     <center><table border="10">
             <tr>
@@ -144,6 +144,7 @@ bmi計算<br>
             </td>	
             </tr>	
         </table></center>
+```
     身高(m): <input type="text"  id="box1" value=""><br>
     體重(kg): <input type="text"  id="box2" value=""><br>	
     <input type="button" value="重置" onClick="reset()">
