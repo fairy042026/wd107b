@@ -45,6 +45,9 @@
 
 <center>
         <marquee direction="right" scrollamount="10" height= "20"  style="color: white" >Hello!</marquee>
+        <script type="text/javascript">
+            alert("大家好，歡迎來到我的網頁～");
+        </script>
     <img src="https://imgur.dcard.tw/Ztf7aWU.jpg" alt="tfboys in 5th" width="720" height="480">
 </center>
 
@@ -64,25 +67,27 @@
 <div class="kk" style="text-align: center" >
     <p>十年之約，你們不離，我們不棄。</p>
     <script>
-            function calculate() {
-              var a = document.getElementById('a')
-              var op = document.getElementById('op')
-              var b = document.getElementById('b')
-              var result = document.getElementById('result')
-              result.innerText = eval(a.value + op.value + b.value)
+            function calculate()
+            {
+                var a = document.getElementById('a')
+                var b = document.getElementById('b')
+                var op = document.getElementById('op')
+                var result = document.getElementById('result')
+                result.innerText = eval(a.value+op.value+b.value)
             }
-          </script>    
-              <input id="a" type="text" value=""/>
-              <select id="op">
+            </script>
+            <input id="a" type="text" value=""/>
+            <select id="op">
                 <option value="+">+</option>
                 <option value="-">-</option>
-                <option value="*" selected>*</option>
+                <option value="*">*</option>
                 <option value="/">/</option>
-              </select>
-          <!--    <input id="op" type="text" value="*"/>-->
-              <input id="b" type="text" value=""/>
-               = <label id="result"></label><br/><br/>
-              <button onclick="calculate()">計算</button>
+                </select>
+            <!--<input id="op" type="text" value=""/> -->
+            <input id="b" type="text" value=""/>
+            =<label id="result"></label><br>
+            <button onclick="calculate()">計算</button>
+        
               <p></p>
 
     bmi計算<br>
@@ -108,23 +113,26 @@
             </td>	
             </tr>	
         </table></center>
-    身高(m): <input type="text"  id="box1" value=""><br>
-    體重(kg): <input type="text"  id="box2" value=""><br>	
-    <input type="button" value="重置" onClick="reset()">
-    <input type="button" value="計算" onClick="equal()"><br>
-	您的BMI值為:<input type="text" name="height" id="box3" value="">
+    身高(m): <input id="1" type="text" value=""><br>
+    體重(kg):<input id="2" type="text" value=""><br>
+    <input type="button" value="清空" style="width:120px;height:40px;border:2px blue none;background-color:pink;" onclick="clean()">
+    <input type="button" value="計算" style="width:120px;height:40px;border:2px blue none;background-color:pink;" onclick="c()"><br>
+    您的BMI值為:<input type="text"  id="3" value="">
 	<script>
-            function equal(){
-            x = document.getElementById("box1").value;
-            y = document.getElementById("box2").value;
-            z = y/(x*x);
-            document.getElementById("box3").value = parseFloat(z.toFixed(2));
-            }
-            function reset(){
-            document.getElementById("box1").value="";
-            document.getElementById("box2").value="";
-            document.getElementById("box3").value="";
-            }
+        function c()
+        {
+             var x = document.getElementById('1').value
+             y = document.getElementById('2').value 
+             z = (y/(x*x))
+            document.getElementById('3').value = parseFloat(z.toFixed(2))
+        }
+        function clean()
+        {
+            var x = document.getElementById('1').value=""
+            var y = document.getElementById('2').value=""
+            var z = document.getElementById('3').value=""
+        }
+            
 		
    </script>
 
