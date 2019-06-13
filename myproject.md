@@ -19,8 +19,8 @@
 4.跑馬燈：
 [介紹](https://github.com/fairy042026/wd107b/blob/master/4.md)
 
-5.文字型計算機
-[介紹:]
+5.文字型計算機：
+[介紹](https://github.com/fairy042026/wd107b/blob/master/5.md)
 
-6.BMI計算
-[介紹:]
+6.BMI計算：
+[介紹]
