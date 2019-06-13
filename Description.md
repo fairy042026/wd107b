@@ -148,7 +148,8 @@ bmi計算<br>
     體重(kg): <input type="text"  id="box2" value=""><br>	
     <input type="button" value="重置" onClick="reset()">
     <input type="button" value="計算" onClick="equal()"><br>
-	您的BMI值為:<input type="text" name="height" id="box3" value="">
+	您的BMI值為:
+	<input type="text" name="height" id="box3" value="">
 	<script>
             function equal(){
             x = document.getElementById("box1").value;
