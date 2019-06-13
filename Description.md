@@ -4,6 +4,16 @@
 #功能
 
 1.下拉式選單
+```
+<div class="dropdown" style="float:right;">
+  <button class="dropbtn">tfboys</button>
+  <div class="dropdown-content">
+    <a href="https://www.instagram.com/karrywang921kw/?hl=zh-tw">karry IG</a>
+    <a href="https://www.instagram.com/roy_____wang/?hl=zh-tw">roy IG</a>
+    <a href="https://www.instagram.com/__4444x__/?hl=zh-tw">jackson IG</a>
+  </div>
+</div>
+```
 
 2.側欄
 
