@@ -16,7 +16,7 @@
 3.嵌入圖片，並產生超連結：
 [介紹](https://github.com/fairy042026/wd107b/blob/master/3.md)
 
-4.跑馬燈：
+4.跑馬燈&彈出視窗：
 [介紹](https://github.com/fairy042026/wd107b/blob/master/4.md)
 
 5.文字型計算機：
